@@ -1,2 +1,24 @@
-# Desafio_de_Projeto_Phishing_Dio
-Este repositório contém a resolução do desafio de projeto proposto no Santander Bootcamp Cibersegurança #2. O desafio propõe a realização de um ataque phishing utilizando o Kali Linux e setoolkit.
+# Desafio de Projeto Santander Bootcamp Cibersegurança #2
+Neste desafio de projeto, iremos criar um Phishing para capturar senhas de login do Facebook.
+
+# Phishing para captura de senhas do Facebook
+
+### Ferramentas
+
+- Kali Linux
+- setoolkit
+
+### Configurando o Phishing no Kali Linux
+
+- Acesso root: ``` sudo su ```
+- Iniciando o setoolkit: ``` setoolkit ```
+- Tipo de ataque: ``` Social-Engineering Attacks ```
+- Vetor de ataque: ``` Web Site Attack Vectors ```
+- Método de ataque: ```Credential Harvester Attack Method ```
+- Método de ataque: ``` Site Cloner ```
+- Obtendo o endereço da máquina: ``` ifconfig ```
+- URL para clone: http://www.facebook.com
+
+### Resutados
+
+![Alt text](./passwd.png "Optional title")
